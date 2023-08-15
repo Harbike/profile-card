@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    min-width: 300px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FD5F35;
+    overflow: hidden;
+}
+.card-container{
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    margin: 20px auto;
+    box-shadow: 1px 2px 15px #200e31;
+}
+/* start change */
+.card-container .top{
+    width: 350px;
+    height: 45vh;
+    background: radial-gradient(#fd60356b, #3c156498), url("https://res.cloudinary.com/harbike/image/upload/v1692051505/531742_g9n9uj.jpg"); /*"profileImage.jpg"*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.card-container .top i{
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    transform: translate(-23px, 30px);
+}
+div.name{
+    position: absolute;
+    color: #fff;
+    transform: translate(35%, 150px);
+    font-size: 20px;
+    font-weight: lighter;
+}
+span.block{
+    display: block;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+hr{
+    margin: 0 0 10px 4px;
+    width: 40px;
+}
+p.designer{
+    color: #fd603594;
+    font-size: 11px;
+}
+
+.card-container .bottom{
+    padding: 30px 32px;
+}
+.about h5, hr#dark{
+    color: rgba(1, 1, 53, 0.904);
+}
+hr#dark{
+    margin: 6px 0 17px 0;
+}
+.about p{
+    width: 90%;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #817b7c;
+}
+span.dezica{
+    color: #fd6035e5;
+    font-weight: 600;
+}
+.ratings .value{
+    margin: 25px 0;
+    font-size: 30px;
+    color: rgba(1, 1, 53, 0.904);
+}
+p.sm-size{
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #aca5a6;
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin-top: 3px;
+}
+.card-container .bottom .icons{
+    font-size: 20px;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: -5px;
+    justify-content: space-around;
+}
+.icons a{
+    color: #c9c3c4;
+}
+.btn{
+    margin-top: 30px;
+    width: 90%;
+}
+input[type=button]{
+    border-radius: 25px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#hire-btn{
+    background-color: #FD5F35;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.527);
+    padding: 8px 25px;
+}
+#know-btn{
+    border: 1px solid #FD5F35;
+    background-color: #fff;
+    color: #FD5F35;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+
+
+/* re-usable */
+.flex{
+    display: flex;
+}
