@@ -24,7 +24,8 @@
 .card-container .top{
     width: 350px;
     height: 45vh;
-    background: url("https://res.cloudinary.com/harbike/image/upload/v1692051505/531742_g9n9uj.jpg");
+    background:radial-gradient(#fd603528,#3c156446),
+    url("https://res.cloudinary.com/harbike/image/upload/v1615585151/Snapchat-172334459_uusew3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +45,7 @@ hr{
     margin: 0 0 10px 4px;
 }
 .designer{
-    color: #fd603594;
+    color: #FD5F35;
     font-size: 12px;
 }
 .bottom{
@@ -88,25 +89,25 @@ input[type=button]{
     font-size: 11px;
     cursor: pointer;
 }
-#hire{
+.hire{
     background-color: #FD5F35;
     color: #fff;
     border: none;
     padding: 8px 26px;
     box-shadow: 1px 0 10px rgba(0,0,0,0.527);
 }
-#hire:hover{
+.hire:hover{
     transform: translate(0, 1px);
     /* transition: width ease-in-out 3s; */
 }
-#know{
+.know{
     border: 1px solid #FD5F35;
     color: #FD5F35;
     background-color: #fff;
     padding: 8px 10px;
     margin-left: 10px;
 }
-#know:hover{
+.know:hover{
     background-color: #FD5F35;
     color: #fff;
 }
