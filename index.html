@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=z, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+      
     <link rel="stylesheet" href="styles.css">
-
-    <title>Profile Card Vijay</title>
+    
+    <title>Profile Card Component</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container flex">
         <div class="card-container">
             <div class="top">
-                <i class="fa fa-ellipsis-v"></i>
+                <!-- <i class="fa fal-ellipsis-v"></i> -->
                 <div class="name">
                     <h2>Riya 
                         <span class="block">Mehra</span>
@@ -23,51 +22,42 @@
                     <p class="designer">Designer, IN</p>
                 </div>
             </div>
-
+            <!-- BOTTOM -->
             <div class="bottom flex">
                 <div class="about">
                     <h5>About</h5>
-                    <hr id="dark">
-                    <p>Designer at 
-                        <span class="dezica">dezica.</span> 
-                        Love to make minimal and clean designs.
+                    <p> Designer at <span class="dezica">dezica</span>. Love to make minimal and clean designs.
                     </p>
-                        <!-- insert icon and links -->
-                        <div class="icons flex">
-                            <a href="https://www.dribble.com">
-                                <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.behance.com">
-                                <i class="fa fa-behance" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.twitter.com">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.github.com">
-                                <i class="fa fa-github" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    <!-- insert buttons -->
+                    <!-- icons -->
+                    <div class="icons flex">
+                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- buttons -->
                     <div class="btn flex">
                         <a href="#">
-                            <input type="button" value="Hire Me" id="hire-btn">
+                            <input type="button" value="Hire Me" id="hire">
                         </a>
                         <a href="#">
-                            <input type="button" value="Know More" id="know-btn">
+                            <input type="button" value="Know More" id="know">
                         </a>
                     </div>
                 </div>
+
+                <!-- ratings -->
                 <div class="ratings">
                     <div class="value">
-                        <p class="bg-size">120</p>
+                        <p>120</p>
                         <p class="sm-size">projects</p>
                     </div>
                     <div class="value">
-                        <p class="bg-size">2.2k</p>
+                        <p>2.2k</p>
                         <p class="sm-size">followers</p>
                     </div>
                     <div class="value">
-                        <p class="bg-size">9.1k</p>
+                        <p>9.1k</p>
                         <p class="sm-size">views</p>
                     </div>
                 </div>
